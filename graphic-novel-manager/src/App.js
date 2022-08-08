@@ -6,11 +6,17 @@ function App() {
     <>
     <div><h1><center>Text tool for comics</center></h1></div>
     <br/>
-    <div> <Tldraw
+    <div  style={{
+         position: "absolute",
+         top: "10%",
+         width: "100vw",
+         height: "80vh"
+      }}> <center><Tldraw
         autofocus
         disableAssets
         showPages={false}
       />
+      </center>
     </div>
   </>
   )
