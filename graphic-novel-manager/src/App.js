@@ -11,12 +11,11 @@ function App() {
          top: "10%",
          width: "100vw",
          height: "80vh"
-      }}> <center><Tldraw
+      }}> <Tldraw
         autofocus
         disableAssets
         showPages={false}
       />
-      </center>
     </div>
   </>
   )
